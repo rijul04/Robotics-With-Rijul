@@ -1,24 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+import wireFrame from "./assets/Wireframe.svg";
+import linkedin from "./assets/LinkedIn.png";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <p id='redOV'>Hi, I am</p>
+    <h2>Rijul</h2>
+    <wireFrame />
+
+    <h2>This website is to blog about my journey into Robotics</h2>
+    <ul id='socialFlex'>
+      <li className='social'><img src={linkedin} alt='LinkedInd'/><p>LinkedIn</p></li>
+    </ul>
+
+    </>
   );
 }
 
