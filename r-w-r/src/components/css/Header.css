@@ -1,4 +1,4 @@
-ul {
+#header ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -14,7 +14,7 @@ ul {
 }
 
 
-li {
+#header li {
     /* display: inline-block; */
     font-size: 14px;
     /* padding: 1%; */
@@ -36,28 +36,32 @@ li {
     padding-left: 2%;
 }
 
-a {
+#header a {
     color: #2C2C2C;
     text-decoration: none;
     font-family: Poppins;
 }
 
-a:active {
+#header a:active {
     text-decoration: underline;
 }
 
-nav {
+#header nav {
     display: flex;
     /* background-color: #2C2C2C; */
     /* justify-content: flex-end; */
     width: 100%;
 }
 
-#left {
+#header #left {
     margin-right: auto;
 }
 
 #right {
     /* display: flex; */
     /* justify-content: flex-end; */
+}
+
+#header #test {
+    color: red;
 }

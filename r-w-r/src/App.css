@@ -1,3 +1,161 @@
 body {
   background: #FEF7ED;
 }
+
+#app #socialFlex {
+  display: flex;
+  /* text-align: center; */
+  gap: 4%;
+  /* background-color: red; */
+  padding: 0;
+}
+
+#app .social {
+  display: flex;
+  border-radius: 40px;
+  border: 1px solid #717171;
+  background: #2E2E2E;
+  color: white;
+  /* font-size: 8px; */
+
+  /* width: 142px;
+  height: 43px; */
+  /* flex-shrink: 0; */
+
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  padding: 2%;
+  padding-top: 0%;
+  padding-bottom: 0%;
+  /* margin-left: 0%; */
+  /* text-align: center; */
+
+  
+}
+
+#app #flexContainer {
+  padding-top: 2%;
+  display: flex;
+  width: 75%;
+  margin: auto;
+  /* background-color: red; */
+ 
+}
+
+#app #leftFlex {
+  width: 75%;
+  /* background-color: red; */
+}
+
+#app hr {
+  margin-top: 5%;
+  width: 80%;
+}
+
+#app h2 {
+  color: #2C2C2C;
+  font-family: Poppins;
+  font-size: 5em;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  /* background-color: red; */
+  margin: 0;
+}
+
+#app h3 {
+  color: #2C2C2C;
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  /* background-color: red; */
+}
+
+.center {
+  width: 75%;
+  margin: auto;
+  text-align: center;
+}
+
+#app h4 {
+  color: #2C2C2C;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 69.164px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  margin: 0;
+  padding-top: 4%;
+}
+
+#app #text {
+  color: #000;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+#app #projectList {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-evenly;
+}
+
+#app #projectList li {
+  max-width: 300px;
+}
+
+#app #projectList hr {
+  width: 100%;
+}
+
+#app h5 {
+  margin: 0;
+  color: #2C2C2C;
+  font-family: Poppins;
+  font-size: 34.074px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+#app #projectList .moreInfo {
+  color: #2C2C2C;
+  font-family: Poppins;
+  font-size: 34.074px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+}
+
+
+.flex {
+  display: flex;
+  gap: 2%;
+  /* text-align: center; */
+  /* background-color: red; */
+}
+
+
+#app #projectList .basicInfo {
+  color: #000;
+  text-align: left;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+

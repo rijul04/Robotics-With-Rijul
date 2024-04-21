@@ -7,6 +7,7 @@ import "./css/Header.css";
 const Header = () => {
     return(
         <>
+        <div id='header'>
         <nav>
         <Link to="/" id='left'><img src={logo} alt="logo" id='logo'/></Link>
         <ul id='right'>
@@ -18,6 +19,7 @@ const Header = () => {
             <li><a href={resume} download="Rijul's Resume.pdf">Resume</a></li>
         </ul>
         </nav>
+        </div>
         </>
     );
 }
